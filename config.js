@@ -22,9 +22,9 @@ module.exports = {
     MODE: process.env.MODE || "public",        // Bot mode: public/private/group/inbox
 
     // ===== OWNER & DEVELOPER SETTINGS =====
-    OWNER_NUMBER: process.env.OWNER_NUMBER || "50948336180",  // Owner's WhatsApp number
+    OWNER_NUMBER: process.env.OWNER_NUMBER || "2250705176845",  // Owner's WhatsApp number
     
-    OWNER_NAME: process.env.OWNER_NAME || getConfig("OWNER_NAME") || "ADD YOUR NAME",           // Owner's name
+    OWNER_NAME: process.env.OWNER_NAME || getConfig("JOSEPH") || "JOSEPH_MD",           // Owner's name
     
     DEV: process.env.DEV || "50948336180",                     // Developer's contact number
     

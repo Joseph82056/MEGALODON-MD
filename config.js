@@ -13,7 +13,7 @@ module.exports = {
     CHATBOT: getConfig("CHATBOT") || "on",
     //chatbot on/off
   
-    SESSION_ID: process.env.SESSION_ID || "MEGALODON-MD~",  // Your bot's session ID (keep it secure)
+    SESSION_ID: process.env.SESSION_ID || "MEGALODON~MD~cApmRRBa#P49L23Je06Q_BfX2LSkJ24WpVpQ8Wcw4L6wAX7RewbA",  // Your bot's session ID (keep it secure)
     
     PREFIX: getConfig("PREFIX") || ".",  // Command prefix (e.g., "., / ! * - +")
     
@@ -48,7 +48,6 @@ module.exports = {
     AUTO_RECORDING: process.env.AUTO_RECORDING || "false",      // Auto-record voice notes?
     AUTO_TYPING: process.env.AUTO_TYPING || "false",            // Show typing indicator?
     MENU_IMAGE_URL: getConfig("MENU_IMAGE_URL") || "https://files.catbox.moe/roubzi.jpg",  // Bot's "alive" image
-
     // ===== SECURITY & ANTI-FEATURES =====
     ANTI_BOT: process.env.ANTI_BOT || "true",
     //antibot true or false
@@ -57,8 +56,8 @@ module.exports = {
     ANTI_BAD: process.env.ANTI_BAD || "false",                  // Block bad words?
     ANTI_LINK_KICK: process.env.ANTILINK_KICK || "false",
 // make anti link true,false for groups 
-    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "false",
-    
+    ANTIVIEW_ONCE: process.env.ANTIVIEW_ONCE || "true",
+   
    ANTILINK_WARN: process.env.ANTILINK_WARN || "false",
     
      ANTILINK: process.env.ANTILINK || "false",
